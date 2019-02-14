@@ -1,0 +1,95 @@
+html{
+    background: url("../image/Test1.jpg") no-repeat center center  ;
+
+}
+
+h1{
+    height: 50px;
+    color: red;
+}
+
+.Title{
+    font-size: 75px;
+    text-align: Center;
+}
+
+.Name{
+    height: 20px;
+    text-align: auto;
+}
+
+.ListPlayer{
+    height: 100px;
+    text-align: auto;
+}
+
+.level{
+    height: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bonus{
+    height: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    height: 500%;
+    width: 10%;
+    border-radius: 30%;
+    font-size: 50px;
+}
+
+label{
+    font-size: 30px;
+    color: azure;
+    width: 50px;
+}
+
+#spanLvl{
+    width: 50px;
+    display: inline-block;
+}
+
+#spanBonus{
+    width: 50px;
+    display: inline-block;
+}
+
+.Fight{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 30%; 
+    background-image: url('../image/Fight.jpg') ;
+    background-size: cover;
+    text-align: center;
+}
+
+.Liste{
+    width: 20%;
+}
+.Icon{
+    height: 50px;
+    border: 1px red solid ;
+    border-radius: 50% ;
+    filter: grayscale(100%);
+}
+
+.Icon:focus{
+    filter: none;
+    outline: 0;
+}
+
+.Icon:hover{
+    filter: none;
+    cursor: pointer;
+}
+
+.Sexe{
+    text-align: center;
+    height: 50px;
+    margin-bottom: 30px;
+}
